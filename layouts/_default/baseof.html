@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  <body>
+    {{ partial "nav.html" . }}
+
+    <!-- Site wrapper -->
+    <div class="site">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+
+  <script src="{{ "js/main.js" | relURL }}"></script>
+  <script src="{{ printf "js/%s" .Params.custom_js | relURL }}"></script>
+  {{ partial "ga.html" . }}
+</html>
