@@ -16,7 +16,7 @@ website: https://s-noroozi-cs.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
@@ -53,7 +53,7 @@ github_username:  s-noroozi-cs
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Working as a <mark>java developer</mark> for 9+ years, makes Saeid expert engineer in software industry. He is quite keen on learning new technologies and innovation. Besides, his experience is full of architectural challenges such as <mark>performance tuning, scaling, failover</mark>, etc.  He has great experiences in <mark>CI / CD and automation</mark>.
-
+  
   Skills
     - Java
     - Microservices
@@ -72,21 +72,22 @@ content:
         title: Technical and Vocational University - Shamsipour Technical College
         sub_title: BS, Software Enginnering
         caption: 2005 - 2010
-        caption: GPA 18.6/20 (4/4)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-       my hobbies are
+       My hobbies are: 
+       
          - Reading books
-           - <a href="https://en.wikipedia.org/wiki/Irvin_D._Yalom">Irvin D. Yalom</a> books
-           - <a href="https://en.wikipedia.org/wiki/Jostein_Gaarder">Jostein Gaarder</a> books
-           - <a href="https://en.wikipedia.org/wiki/Cal_Newport">Cal Newport</a> books
-           - <a href="https://en.wikipedia.org/wiki/Rolf_Dobelli">Rolf Dobelli</a> books
-           - <a href="https://en.wikipedia.org/wiki/Coders_at_Work">Peter Seibel</a> books
-           - <a href="https://en.wikipedia.org/wiki/Rumi">Jalāl ad-Dīn Mohammad Rūmī</a> books
+           - <a href="https://en.wikipedia.org/wiki/Irvin_D._Yalom">Irvin D. Yalom</a>
+           - <a href="https://en.wikipedia.org/wiki/Jostein_Gaarder">Jostein Gaarder</a>
+           - <a href="https://en.wikipedia.org/wiki/Cal_Newport">Cal Newport</a>
+           - <a href="https://en.wikipedia.org/wiki/Rolf_Dobelli">Rolf Dobelli</a>
+           - <a href="https://en.wikipedia.org/wiki/Coders_at_Work">Peter Seibel</a>
+           - <a href="https://en.wikipedia.org/wiki/Rumi">Jalāl ad-Dīn Mohammad Rūmī</a>
+         
          - Watch Documentary and Drama Movies
+         
          - Sports
            - Walking
            - Cycling
