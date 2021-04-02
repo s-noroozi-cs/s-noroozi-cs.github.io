@@ -53,22 +53,23 @@ github_username:  s-noroozi-cs
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Working as a <mark>java developer</mark> for 9+ years, makes Saeid expert engineer in software industry. He is quite keen on learning new technologies and innovation. Besides, his experience is full of architectural challenges such as <mark>performance tuning, scaling, failover</mark>, etc.  He has great experiences in <mark>CI / CD and automation</mark>.
-  
-  Skills
-    - Java
-    - Microservices
-    - Spring-boot
-    - Apache Kafka
-    - Docker
-    - Jenkins
-    - Unix / Linux Shell-Scripting
-    - SQL
 
 content:
+  - title: Skills
+    layout: list
+    content:
+      - title: Java
+      - title: Microservices
+      - title: Spring-boot
+      - title: Apache Kafka
+      - title: Docker
+      - title: Jenkins
+      - title: Unix / Linux Shell-Scripting
+      - title: SQL        
   - title: Education
     layout: list
     content:
-      - layout: top-center
+      - layout: center
         title: Technical and Vocational University - Shamsipour Technical College
         sub_title: BS, Software Enginnering
         caption: 2005 - 2010
