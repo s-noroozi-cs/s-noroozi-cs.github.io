@@ -43,9 +43,9 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Technical and Vocational University - Shamsipour Technical College
-        qualification: B.Sc. Computer Engineering
-        dates: 2015 - 2020<br>GPA 18.4/20 (3.7/4)
+        title: Technical and Vocational University
+        sub_title: BS, Software Enginnering
+        caption: 2005 - 2010
 
   - title: A Little More About Me
     layout: text
