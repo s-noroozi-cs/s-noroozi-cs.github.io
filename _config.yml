@@ -10,7 +10,7 @@ name: Saeid Noroozi
 title: Backend Software Engineer
 email: s.noroozi.cs@gmail.com
 # email_title: Email (Email title override)
-phone: +98 - 912 084 3547
+phone: +98 - 912 861 2696
 # phone_title: Phone (Phone title override)
 website: https://s-noroozi-cs.github.io
 # website_title: Web (Website title override)
@@ -18,35 +18,8 @@ website: https://s-noroozi-cs.github.io
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-#twitter_username: jekyllrb
 github_username:  s-noroozi-cs
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
-#linkedin_username: jekyll
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#googleplus_username: +jekyll
-#orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: https://s-noroozi-cs.github.io/
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -69,7 +42,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: center
+      - layout: right
         title: Technical and Vocational University - Shamsipour Technical College
         sub_title: BS, Software Enginnering
         caption: 2005 - 2010
@@ -79,16 +52,16 @@ content:
     content: | # this will include new lines to allow paragraphs
        My hobbies are: 
        
-         - Reading books
+         - Reading books, My favorite authors
            - <a href="https://en.wikipedia.org/wiki/Irvin_D._Yalom">Irvin D. Yalom</a>
            - <a href="https://en.wikipedia.org/wiki/Jostein_Gaarder">Jostein Gaarder</a>
            - <a href="https://en.wikipedia.org/wiki/Cal_Newport">Cal Newport</a>
            - <a href="https://en.wikipedia.org/wiki/Rolf_Dobelli">Rolf Dobelli</a>
            - <a href="https://en.wikipedia.org/wiki/Coders_at_Work">Peter Seibel</a>
            - <a href="https://en.wikipedia.org/wiki/Rumi">Jalāl ad-Dīn Mohammad Rūmī</a>
-         
+         <br/>
          - Watch Documentary and Drama Movies
-         
+         <br/>
          - Sports
            - Walking
            - Cycling
