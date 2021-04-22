@@ -48,6 +48,26 @@ content:
         title: Technical and Vocational University
         sub_title: BS, Software Enginnering
         caption: 2005 - 2010
+   
+  - title: Publication
+    layout: text
+    content: | 
+         - A Novel Approach based on CVQ Technique for Face Recognition
+           - 3rd International Conference on Signal Acquisition and Processing
+           - Feb 26 2011
+           - <a href="documents/2011_ICSAP_A-Novel-Approach-based-on-CVQ-Technique-for-Face-Recognition.pdf" target="_blank">PDF - Download Link</a>
+
+  - title: Teaching
+    layout: text
+    content: | 
+         - Apache Kafka
+           - Scope: Introduction, Managing and Administration
+           - Audience: Developer and DevOps 
+           - Date: March-May 2021
+           - Location: Tehran, Iran
+           - <a href="documents/isc-nps-apache-kafka.pptx" target="_blank">PPTX - Download Link</a>
+           - <a href="documents/apache-kafka-useful-articles.txt" target="_blank">Reference Articles Link</a>
+        
 
   - title: A Little More About Me
     layout: text
@@ -55,12 +75,12 @@ content:
        My hobbies are: 
        
          - Reading books, My favorite authors
-           - <a href="https://en.wikipedia.org/wiki/Irvin_D._Yalom">Irvin D. Yalom</a>
-           - <a href="https://en.wikipedia.org/wiki/Jostein_Gaarder">Jostein Gaarder</a>
-           - <a href="https://en.wikipedia.org/wiki/Cal_Newport">Cal Newport</a>
-           - <a href="https://en.wikipedia.org/wiki/Rolf_Dobelli">Rolf Dobelli</a>
-           - <a href="https://en.wikipedia.org/wiki/Coders_at_Work">Peter Seibel</a>
-           - <a href="https://en.wikipedia.org/wiki/Rumi">Jalāl ad-Dīn Mohammad Rūmī</a>
+           - <a href="https://en.wikipedia.org/wiki/Irvin_D._Yalom" target="_blank">Irvin D. Yalom</a>
+           - <a href="https://en.wikipedia.org/wiki/Jostein_Gaarder" target="_blank">Jostein Gaarder</a>
+           - <a href="https://en.wikipedia.org/wiki/Cal_Newport" target="_blank">Cal Newport</a>
+           - <a href="https://en.wikipedia.org/wiki/Rolf_Dobelli" target="_blank">Rolf Dobelli</a>
+           - <a href="https://en.wikipedia.org/wiki/Coders_at_Work" target="_blank">Peter Seibel</a>
+           - <a href="https://en.wikipedia.org/wiki/Rumi" target="_blank">Jalāl ad-Dīn Mohammad Rūmī</a>
          <br/>
          - Watch Documentary and Drama Movies
          <br/>
