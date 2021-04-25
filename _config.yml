@@ -9,11 +9,8 @@ version: 2
 name: Saeid Noroozi
 title: Backend Software Engineer
 email: s.noroozi.cs@gmail.com
-# email_title: Email (Email title override)
 phone: +98 - 912 861 2696
-# phone_title: Phone (Phone title override)
 website: https://s-noroozi-cs.github.io
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -24,23 +21,24 @@ linkedin_username: saeid-noroozi
 
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Working as a <mark>java developer</mark> for 9+ years, makes Saeid expert engineer in software industry. He is quite keen on learning new technologies and innovation. Besides, his experience is full of architectural challenges such as <mark>performance tuning, scaling, failover</mark>, etc.  He has great experiences in <mark>CI / CD and automation</mark>.
+  Working as a <mark>java developer</mark> for 9+ years, makes Saeid expert engineer in software industry. He is quite keen on learning new technologies and innovation. Besides, his experience is full of architectural challenges such as <mark>performance tuning, scaling, failover</mark>, etc.  He has great experiences in <mark>CI / CD and automation</mark>. 
+  
+  <a href="documents/cv-saeid-noroozi.pdf" target="_blank">Download My CV</a>
+  
+  Skills
+    - Java
+    - Microservices
+    - Spring-boot
+    - Apache Kafka
+    - Docker
+    - Jenkins
+    - Unix / Linux Shell-Scripting
+    - SQL        
 
 content:
-  - title: Skills
-    layout: list
-    content:
-      - title: Java
-      - title: Microservices
-      - title: Spring-boot
-      - title: Apache Kafka
-      - title: Docker
-      - title: Jenkins
-      - title: Unix / Linux Shell-Scripting
-      - title: SQL        
   - title: Education
     layout: list
     content:
@@ -81,9 +79,7 @@ content:
            - <a href="https://en.wikipedia.org/wiki/Rolf_Dobelli" target="_blank">Rolf Dobelli</a>
            - <a href="https://en.wikipedia.org/wiki/Coders_at_Work" target="_blank">Peter Seibel</a>
            - <a href="https://en.wikipedia.org/wiki/Rumi" target="_blank">Jalāl ad-Dīn Mohammad Rūmī</a>
-         <br/>
-         - Watch Documentary and Drama Movies
-         <br/>
+         - Watch Documentary and Drama Movies         
          - Sports
            - Walking
            - Cycling
