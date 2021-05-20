@@ -35,8 +35,8 @@ about_content: | # this will include new lines to allow paragraphs
     - Apache Kafka
     - Docker
     - Jenkins
-    - Unix / Linux Shell-Scripting
-    - SQL        
+    - Linux Shell Scripting
+    - SQL
 
 content:
   - title: Education
@@ -45,7 +45,7 @@ content:
       - layout: top-middle
         title: Technical and Vocational University
         sub_title: BS, Software Enginnering
-        caption: 2005 - 2010
+        caption: 2006 - 2010
    
   - title: Publication
     layout: text
