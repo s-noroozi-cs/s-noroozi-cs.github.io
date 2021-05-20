@@ -42,11 +42,23 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-right
         title: Technical and Vocational University
         sub_title: BS, Software Enginnering
         caption: 2006 - 2010
-   
+        quote: >
+          Survey multiple and different face recognition algorithms. 
+        description: | # this will include new lines to allow paragraphs
+          Customize CVQ algorithm to work as face recognition algorithm. Improve it with neural networn( train and recalculating to decrese wrong rate)
+          To prove our solution, implemnent it with Java (Standard Edition) and tested it with ORL, MIT, Yale face data sets.
+          
+  - title: Code Experiences and Ideas
+    layout: text
+    content: | 
+         - A Novel Approach based on CVQ Technique for Face Recognition
+           - 3rd International Conference on Signal Acquisition and Processing
+           - Feb 26 2011
+           - <a href="documents/2011_ICSAP_A-Novel-Approach-based-on-CVQ-Technique-for-Face-Recognition.pdf" target="_blank">PDF - Download Link</a>
   - title: Publication
     layout: text
     content: | 
