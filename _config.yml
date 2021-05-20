@@ -42,7 +42,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Technical and Vocational University
         sub_title: BS, Software Enginnering
         caption: 2006 - 2010
@@ -50,8 +50,7 @@ content:
           Survey multiple and different face recognition algorithms. 
         description: | # this will include new lines to allow paragraphs
           Customize CVQ algorithm to work as face recognition algorithm. Improve it with neural networn( train and recalculating to decrese wrong rate)
-          To prove our solution, implemnent it with Java (Standard Edition) and tested it with ORL, MIT, Yale face data sets.
-          
+          To prove our solution, implemnent it with Java (Standard Edition) and tested it with ORL, MIT, Yale face data sets.          
   - title: Code Experiences and Ideas
     layout: text
     content: | 
