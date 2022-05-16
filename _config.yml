@@ -34,7 +34,8 @@ about_content: | # this will include new lines to allow paragraphs
     - Spring-boot
     - Apache Kafka
     - Docker
-    - Jenkins
+    - Apache Cassandra
+    - Jenkins & GitLab CI-CD
     - Linux Shell Scripting
     - SQL
 
