@@ -59,9 +59,15 @@ content:
            - Feb 26 2011
            - <a href="documents/2011_ICSAP_A-Novel-Approach-based-on-CVQ-Technique-for-Face-Recognition.pdf" target="_blank">PDF - Download Link</a>
 
-  - title: Teaching
+  - title: Instructor
     layout: text
     content: | 
+         - GitLab CI - CD
+           - Scope: Introduction and Configuration
+           - Audience: DevOps 
+           - Date: May-June 2022
+           - Location: Tehran, Iran
+           <a href="https://www.linkedin.com/in/saeid-noroozi/details/experience/" target="_blank">Details</a> 
          - Apache Kafka
            - Scope: Introduction, Managing and Administration
            - Audience: Developer and DevOps 
