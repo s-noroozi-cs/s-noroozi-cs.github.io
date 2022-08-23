@@ -59,9 +59,16 @@ content:
            - Feb 26 2011
            - <a href="documents/2011_ICSAP_A-Novel-Approach-based-on-CVQ-Technique-for-Face-Recognition.pdf" target="_blank">PDF - Download Link</a>
 
-  - title: Instructor
+  - title: Instructor, Consultant 
     layout: text
     content: | 
+          - Apache Kafka
+           - Scope: Instructing and Consultanting
+           - Audience: Developer and DevOps
+           - Date: July-September 2022
+           - Location: Tehran, Iran
+           - <a href="https://github.com/s-noroozi-cs/kafka-training" target="_blank">GitHub Repository</a>
+           
          - GitLab CI - CD
            - Scope: Introduction and Configuration
            - Audience: DevOps 
