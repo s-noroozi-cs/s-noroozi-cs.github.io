@@ -64,24 +64,22 @@ content:
     content: | 
          - Apache Kafka
            - Scope: Instructing and Consultanting
-           - Audience: Developer and DevOps
+           - Audience: Software Team of <a href="https://www.linkedin.com/company/datxsoft/about/" target="_blank">Datx Soft</a>
            - Date: July-September 2022
-           - Location: Tehran, Iran
            - <a href="https://github.com/s-noroozi-cs/kafka-training" target="_blank">GitHub Repository</a>
            
          - GitLab CI - CD
            - Scope: Introduction and Configuration
-           - Audience: DevOps 
+           - Audience: National Payment Systems of <a href="https://www.linkedin.com/company/informatics-services-corporation/" target="_blank">Informatic Services Corporation</a>
            - Date: May-June 2022
            - Location: Tehran, Iran
            - <a href="https://www.linkedin.com/in/saeid-noroozi" target="_blank">Topics Detail</a> 
          
          - Apache Kafka
            - Scope: Introduction, Managing and Administration
-           - Audience: Developer and DevOps 
+           - Audience: National Payment Systems Unit of <a href="https://www.linkedin.com/company/datxsoft/about/" target="_blank">Informatic Services Corporation</a> 
            - Date: March-May 2021
-           - Location: Tehran, Iran
-           - <a href="documents/isc-apache-kafka.pdf" target="_blank">PDF - Download Link</a>
+           - <a href="documents/isc-apache-kafka.pdf" target="_blank">Presentaion Download Link</a>
            - <a href="documents/apache-kafka-useful-articles.txt" target="_blank">Reference Articles Link</a>
         
 
