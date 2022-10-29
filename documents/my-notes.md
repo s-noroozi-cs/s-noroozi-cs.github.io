@@ -14,3 +14,12 @@ bash <(curl -sL https://get.graalvm.org/jdk) graalvm-ce-java11-22.3.0
 ```
 bash <(curl -sL https://get.graalvm.org/jdk) --help
 ```
+## download the script and inspect it before running
+```
+# download the GraalVM JDK Downloader script
+curl -OL https://get.graalvm.org/jdk
+# inspect the script
+less jdk
+# run the script
+bash jdk
+```
