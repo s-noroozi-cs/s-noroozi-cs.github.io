@@ -23,3 +23,8 @@ less jdk
 # run the script
 bash jdk
 ```
+
+# Feign Client
+* Exception Handling with ErrorDecoder
+* Exception Handling with Fallback
+* Exception Handling with FallbackFactory
