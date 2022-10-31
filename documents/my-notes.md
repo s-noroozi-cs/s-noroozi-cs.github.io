@@ -96,6 +96,7 @@ String message = """
 ```
 # Java 16 - Record classes
 * In many cases, this data is immutable, since immutability ensures the validity of the data without synchronization.
+* Old style
 ```
 public class Person {
 
@@ -133,6 +134,55 @@ public class Person {
     // standard getters
 }
 ```
+* Replacement 
 ```
 public record Person (String name, String address) {}
+```
+# Java 16 - Pattern Matching for instanceof
+* Old style
+```
+public interface Shape {
+    public static double getPerimeter(Shape shape) throws IllegalArgumentException {
+        if (shape instanceof Rectangle) {
+            Rectangle r = (Rectangle) shape;
+            return 2 * r.length() + 2 * r.width();
+        } else if (shape instanceof Circle) {
+            Circle c = (Circle) shape;
+            return 2 * c.radius() * Math.PI;
+        } else {
+            throw new IllegalArgumentException("Unrecognized shape");
+        }
+    }
+}
+
+public class Rectangle implements Shape {
+    final double length;
+    final double width;    
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }    
+    double length() { return length; }
+    double width() { return width; }
+}
+
+public class Circle implements Shape {
+    final double radius;
+    public Circle(double radius) {
+        this.radius = radius;
+    }  
+    double radius() { return radius; }
+}
+```
+* Replacement 
+```
+public static double getPerimeter(Shape shape) throws IllegalArgumentException {
+   if (shape instanceof Rectangle r) {
+      return 2 * r.length() + 2 * r.width();
+   } else if (shape instanceof Circle c) {
+      return 2 * c.radius() * Math.PI;
+   } else {
+      throw new IllegalArgumentException("Unrecognized shape");
+   }
+}
 ```
