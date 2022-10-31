@@ -74,7 +74,7 @@ public enum Day { SUNDAY, MONDAY, TUESDAY,
     );    
 ```
 # Java 15 - Text Blocks
-# Original
+* Original
 ```
 String message = "'The time has come,' the Walrus said,\n" +
                  "'To talk of many things:\n" +
@@ -83,7 +83,7 @@ String message = "'The time has come,' the Walrus said,\n" +
                  "And why the sea is boiling hot --\n" +
                  "And whether pigs have wings.'\n";
 ```
-# Better
+* Better
 ```
 String message = """
     'The time has come,' the Walrus said,
@@ -93,4 +93,46 @@ String message = """
     And why the sea is boiling hot --
     And whether pigs have wings.'
     """;
+```
+# Java 16 - Record classes
+* In many cases, this data is immutable, since immutability ensures the validity of the data without synchronization.
+```
+public class Person {
+
+    private final String name;
+    private final String address;
+
+    public Person(String name, String address) {
+        this.name = name;
+        this.address = address;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, address);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        } else if (!(obj instanceof Person)) {
+            return false;
+        } else {
+            Person other = (Person) obj;
+            return Objects.equals(name, other.name)
+              && Objects.equals(address, other.address);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Person [name=" + name + ", address=" + address + "]";
+    }
+
+    // standard getters
+}
+```
+```
+public record Person (String name, String address) {}
 ```
