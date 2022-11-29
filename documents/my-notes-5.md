@@ -10,7 +10,8 @@
 2. Connection management
 
 	Database connections are expensive, therefore you should always use a connection pooling mechanism.
-	Because the number of connections is given by the capabilities of the underlying database cluster, you need to release connections as fast as possible.
+	Because the number of connections is given by the capabilities of the underlying database cluster, 
+	you need to release connections as fast as possible.
 	In performance tuning, you always have to measure, and setting the right pool size is no different. 
 	A tool like FlexyPool can help you find the right size even after you deployed your application into production.
 	
@@ -18,7 +19,8 @@
 	
 	JDBC batching allows us to send multiple SQL statements in a single database roundtrip. 
 	The performance gain is significant both on the Driver and the database side. 
-	PreparedStatements are very good candidates for batching, and some database systems (e.g. Oracle) support batching only for prepared statements only.
+	PreparedStatements are very good candidates for batching, 
+	and some database systems (e.g. Oracle) support batching only for prepared statements only.
 	Since JDBC defines a distinct API for batching (e.g. PreparedStatement.addBatch and PreparedStatement.executeBatch), 
 	if you’re generating statements manually, then you should know right from the start whether you should be using batching or not. 
 	With Hibernate, you can switch to batching with a single configuration.
@@ -118,4 +120,3 @@
 	there is a good chance you can scale an enterprise application to its particular business requirements.
 	Database replication and sharding are very good ways to increase throughput, 
 	and you should totally take advantage of these battle-tested architectural patterns to scale your enterprise application.
-	
