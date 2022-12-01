@@ -14,4 +14,16 @@ OAuth 2 Grant Types:
 		9. app get account or profile info using access token
 		
 	
+	The Client Credentials Grant
 	
+		0. The Client Credentials Grant involves machine to machine authentication.
+			In case of Client credentials grant type the user has no role to play. 
+			This is typically used by clients to access resources about themselves rather than to access a user's resources. 
+		1. client app send request (client id, client secret with grant type client credentials) to authorization server
+		2. authorization server give back auth-token
+		3. client app send request to resource server with this auth-token
+		4. resource server verify received token through communicate with authorization server
+		5. if auth-token is valid, resource server return requested resource
+		
+	
+		
