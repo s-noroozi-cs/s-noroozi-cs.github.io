@@ -24,6 +24,11 @@ OAuth 2 Grant Types:
 		3. client app send request to resource server with this auth-token
 		4. resource server verify received token through communicate with authorization server
 		5. if auth-token is valid, resource server return requested resource
+			
+		for example: reservaton hotel, as client app communicate with several third party apis to show search result
 		
-	
+		
+	The Password Credentials Grant.
+		
+		
 		
