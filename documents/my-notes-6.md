@@ -30,5 +30,13 @@ OAuth 2 Grant Types:
 		
 	The Password Credentials Grant.
 		
+		1. In case of Password grant type the user triggers the client to get some resource. 
+		2. While doing so it passes the username and password to the client. 
+		3. The client then communicates with the authorization server using the provided username, 
+			password and also its own clientId and clientSecret to get the access token. 
+		4. Using this access token it then gets the required resource from the resource server. 
 		
+		The real life example of Password grant will be you doing a login to you facebook account using its mobile application. 
+		Here the user will have to specify the facebook credentials to the app. 
+		Also the app will be having its own client id and client secret. 
 		
