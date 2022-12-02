@@ -38,5 +38,4 @@ OAuth 2 Grant Types:
 		
 		The real life example of Password grant will be you doing a login to you facebook account using its mobile application. 
 		Here the user will have to specify the facebook credentials to the app. 
-		Also the app will be having its own client id and client secret. 
-		
+		Also the app will be having its own client id and client secret.
