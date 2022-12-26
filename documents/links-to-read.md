@@ -15,6 +15,12 @@ HTTP 3 - QUIC transport protocol
 
 	https://www.rfc-editor.org/rfc/rfc9114.html
 
+Local X Pose
+
 A reverse proxy that enables you to expose your localhost to the internet
       
         https://localxpose.io/
+
+Java fake data generator
+       
+        https://github.com/datafaker-net/datafaker/
