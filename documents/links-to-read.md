@@ -24,3 +24,7 @@ A reverse proxy that enables you to expose your localhost to the internet
 Java fake data generator
        
         https://github.com/datafaker-net/datafaker/
+
+Debezium : Stream changes from your database.
+
+        https://debezium.io/
