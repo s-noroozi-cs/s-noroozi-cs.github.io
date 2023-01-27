@@ -1,0 +1,2 @@
+read all of following articles:
+	https://vladmihalcea.com/tutorials/hibernate/
