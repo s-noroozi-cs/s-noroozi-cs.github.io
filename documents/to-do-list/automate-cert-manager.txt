@@ -1,0 +1,7 @@
+https://strimzi.io/blog/2021/05/07/deploying-kafka-with-lets-encrypt-certificates/
+
+https://github.com/orgs/strimzi/discussions/5718
+
+https://stackoverflow.com/questions/74519426/how-to-use-lets-encrypt-issued-certificate-with-bitnami-kafka
+
+
