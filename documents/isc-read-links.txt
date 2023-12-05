@@ -18,4 +18,3 @@ https://piotrminkowski.com/2021/05/24/ssl-with-spring-webflux-and-vault-pki/
 https://www.baeldung.com/spring-boot-keycloak-integration-testing
 https://github.com/thomasdarimont/embedded-spring-boot-keycloak-server
 https://www.baeldung.com/keycloak-embedded-in-spring-boot-app
-https://github.com/ThomasVitale/cloud-native-spring-in-action
