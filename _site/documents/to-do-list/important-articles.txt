@@ -1,0 +1,5 @@
+read all of following articles:
+	https://vladmihalcea.com/tutorials/hibernate/
+	https://vladmihalcea.com/tutorials/flexypool/
+	https://vladmihalcea.com/tutorials/spring/
+	https://vladmihalcea.com/tutorials/mongodb/

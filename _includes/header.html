@@ -97,6 +97,20 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.telegram_username -%}
+          <li>
+            <a target="_blank" href="https://t.me/{{ site.telegram_username | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-telegram" title="Telegram link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.skype_id -%}
+          <li>
+            <a target="_blank" href="https://join.skype.com/invite/{{ site.skype_id | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-skype" title="Skype link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {% for link in site.additional_links %}
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}

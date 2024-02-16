@@ -1,0 +1,5 @@
+https://github.com/vladmihalcea/flexy-pool
+
+https://www.baeldung.com/hibernate-save-persist-update-merge-saveorupdate
+
+https://thorben-janssen.com/jpa-getreference/

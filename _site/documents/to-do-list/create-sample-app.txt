@@ -1,0 +1,4 @@
+https://vladmihalcea.com/time-zones-java-web-application/
+
+https://vladmihalcea.com/a-beginners-guide-to-cdc-change-data-capture/
+

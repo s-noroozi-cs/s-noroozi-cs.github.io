@@ -1,0 +1,31 @@
+  Spring – k8s
+•	service discovery through Spring Cloud Kubernetes
+o	Kubernetes exposes the service as a collection of endpoints
+
+•	load balancing using Spring Cloud Kubernetes Ribbon
+o	Spring Cloud Kubernetes Ribbon uses this feature to load balance between the different endpoints of a service.
+o	In a microservices environment, we generally need the list of pods where our service is replicated in order to perform load-balancing. This is accomplished by using a mechanism provided by Spring Cloud Kubernetes Ribbon. This mechanism can automatically discover and reach all the endpoints of a specific service, and subsequently, it populates a Ribbon ServerList with information about the endpoints.
+
+•	configuration management and injecting Kubernetes ConfigMaps and secrets to application pods using Spring Cloud Kubernetes Config
+o	ConfigMaps provided by Kubernetes – provided that we intend to use it for non-sensitive, unencrypted information only. 
+o	Alternatively, if the information we want to share is sensitive, then we should opt to use Secrets instead.
+
+Service mesh
+In software architecture, a service mesh is a dedicated infrastructure layer for facilitating service-to-service communications between services or microservices, using a proxy. A dedicated communication layer can provide a number of benefits, such as providing observability into communications, providing secure connections, or automating retries and backoff for failed requests.
+
+
+https://www.youtube.com/channel/UCWyxyELE6REiFPx2Oah26-Q
+
+https://github.com/linkerd/linkerd2
+
+https://linkerd.io/2.12/overview/
+
+https://www.cisco.com/c/en/us/solutions/cloud/what-is-service-mesh.html
+
+https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh
+
+https://duckduckgo.com/?q=what+is+service+mesh&t=newext&atb=v361-5br&ia=web
+
+https://buoyant.io/mtls-guide
+
+https://duckduckgo.com/?q=kubernetes+service+security+mtls+&t=newext&atb=v361-5br&ia=web
