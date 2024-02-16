@@ -1,0 +1,9 @@
+https://medium.com/@chaewonkong/redis-sentinel-vs-redis-cluster-a-comparative-overview-8c2561d3168f
+
+https://github.com/helderjnpinto/Redis-Sentinel-Docker-Compose/blob/master/docker-compose.yml
+
+https://github.com/AliyunContainerService/redis-cluster/blob/master/sentinel/sentinel.conf
+
+https://medium.com/@htyesilyurt/spring-boot-3-redis-sentinel-lettuce-client-and-docker-compose-for-high-availability-1f1e3c372a5a
+
+https://github.com/s7anley/redis-sentinel-docker/blob/master/README.md
