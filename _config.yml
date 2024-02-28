@@ -64,6 +64,12 @@ content:
   - title: Instructor, Consultant 
     layout: text
     content: | 
+         - Java & Spring boot
+           - Scope: Instructing and Consultanting
+           - Audience: Software Team of <a href="https://www.linkedin.com/company/shaparak/about/" target="_blank">Shaparak</a>
+           - Date: Feb-May 2023
+           - <a href="https://github.com/s-noroozi-cs/spring-boot-3-training" target="_blank">GitHub Repository - Spring-boot</a>         
+           - <a href="https://github.com/s-noroozi-cs/java-training" target="_blank">GitHub Repository - Java</a>         
          - Apache Kafka
            - Scope: Instructing and Consultanting
            - Audience: Software Team of <a href="https://www.linkedin.com/company/datxsoft/about/" target="_blank">Datx Soft</a>
