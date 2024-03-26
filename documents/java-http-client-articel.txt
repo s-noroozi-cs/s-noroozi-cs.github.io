@@ -1,0 +1,13 @@
+https://www.wiremock.io/post/java-http-client-comparison
+
+https://www.reddit.com/r/java/comments/jmnzgd/which_java_http_client_is_best_in_2020/
+
+https://www.innoq.com/en/articles/2022/01/java-http-clients/
+
+https://mvysny.github.io/okhttp-vs-httpclient/
+
+https://www.baeldung.com/java-9-http-client
+
+https://square.github.io/okhttp/
+
+https://www.baeldung.com/guide-to-okhttp
